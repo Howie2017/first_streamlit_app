@@ -37,7 +37,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # output it to the screen as a table
 streamlit.dataframe(fruityvice_normalized)
 
-my_cur.execute("use warehouse pc_rivery_wh")
+#my_cur.execute("use warehouse pc_rivery_wh")
 my_cur.execute("SELECT * FROM FRUIT_LOAD_LIST")
 my_data_rows = my_cur.fetchall()
 streamlit.header("The Fruit List Contains:")
