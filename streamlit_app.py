@@ -41,7 +41,7 @@ streamlit.header('Fruityvice Fruit Advice')
 
 #New Section to display fruityvice api response	AFTER
 streamlit.header('Fruityvice Fruit Advice!')
-	try:
+try:
 
 	fruit_choice = streamlit.text_input('What fruit would you like information about?')
 	if not fruit_choice:
