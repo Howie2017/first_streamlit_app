@@ -105,4 +105,3 @@ try:
 #my_data_rows = my_cur.fetchall()
 #streamlit.header("The fruit load list contains: ")
 #streamlit.text("Hello from Snowflake:")
-#streamlit.dataframe (my_data_rows)
